@@ -1,0 +1,152 @@
+body{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.logoXbox{
+    width: 70px;
+}
+
+ul{
+    margin: 10px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+
+/* Contenido Principal */
+
+main{
+    width: 100%;
+}
+
+.container-1{
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,1)) ,url(/assets/banner.jpeg);
+    background-size: cover;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+p{
+    font-weight: 100;
+    margin-top: 0px;
+    width: 207px;
+    font-size: 15px;
+}
+
+button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    width: 180px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.container-2{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Juegos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.JuegosPortadas{
+    border-radius: 10px;
+    width: 150px;
+    padding: 5px;
+}
+
+.ulJuegos{
+}
+
+.h2catalogo{
+    font-weight: 900;
+}
+
+.otrop{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer{
+    background-color: white;
+    padding: 20px;
+}
+
+p{
+    font-weight: 400;
+}
+
+@media(min-width: 1024px){
+
+    header{
+        flex-direction: row;
+        padding: 0;
+        padding-left: 15px;
+    }
+
+    nav{
+        margin-top: 0px;
+        margin-bottom: 4px;
+    }
+
+    .container-1{
+        padding: 100px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    p{
+        width: 400px;
+    }
+
+    .JuegosPortadas{
+        width: 250px;
+    }
+}
